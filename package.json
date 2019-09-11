@@ -1,0 +1,22 @@
+{
+  "name": "firebase-koa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.ts",
+  "scripts": {
+    "start": "nodemon app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.8.1",
+    "koa-morgan": "^1.0.1",
+    "koa-router": "^7.4.0",
+    "nodemon": "^1.19.2"
+  },
+  "devDependencies": {
+    "@types/koa-morgan": "^1.0.4",
+    "@types/koa-router": "^7.0.42"
+  }
+}
