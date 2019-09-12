@@ -1,7 +1,22 @@
 # File created using '.gitignore Generator' for Visual Studio Code: https://bit.ly/vscode-gig
 
-# Created by https://www.gitignore.io/api/visualstudiocode,windows,node
-# Edit at https://www.gitignore.io/?templates=visualstudiocode,windows,node
+# Created by https://www.gitignore.io/api/visualstudiocode,windows,git,node
+# Edit at https://www.gitignore.io/?templates=visualstudiocode,windows,git,node
+
+### Git ###
+# Created by git for backups. To disable backups in Git:
+# $ git config --global mergetool.keepBackup false
+*.orig
+
+# Created by git when using merge tools for conflicts
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+*_BACKUP_*.txt
+*_BASE_*.txt
+*_LOCAL_*.txt
+*_REMOTE_*.txt
 
 ### Node ###
 # Logs
@@ -27,6 +42,8 @@ lib-cov
 # Coverage directory used by tools like istanbul
 coverage
 *.lcov
+
+.
 
 # nyc test coverage
 .nyc_output
@@ -130,7 +147,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.gitignore.io/api/visualstudiocode,windows,node
+# End of https://www.gitignore.io/api/visualstudiocode,windows,git,node
 
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
 
